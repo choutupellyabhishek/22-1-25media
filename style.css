@@ -1,0 +1,112 @@
+.container{
+    background-image: url("https://images.pexels.com/photos/1777846/pexels-photo-1777846.jpeg?auto=compress&cs=tinysrgb&w=600");
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.head{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     top: 50%;
+     bottom: 50%;
+
+
+}
+
+.bgcontainer{
+   
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: end;
+    bottom: 0px;
+
+    position: fixed;
+    z-index: 999;
+
+}
+.jone>h1{
+    text-align: center;
+}
+.jone>img{
+    width: 100%;
+    height: 400px;
+
+}
+.wed{
+display: flex;
+   text-align: center;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+.photo{
+    width: 100%;
+    width: 400px;
+    
+}
+.flower{
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+span{
+
+    color:blue;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    font-size: 32px;
+}
+.a{
+    text-align: center;
+}
+.b{
+    width: 100%;
+    height: 400px;
+}
+.c{
+    display: flex;
+    justify-content: space-around;
+}
+.g>p{
+    text-align: center;
+
+   border: 2px solid black;
+   background-color: black;
+   
+
+    color: aqua;
+}
+.f {
+    text-align: center;
+}
+.cont{
+    background-color: pink;
+}
+@media screen and (width <= 500px){
+    .cont{
+     
+    }
+
+    .container{
+        font-size: 16px;
+    }
+    .bgcontainer{
+        flex-direction: column;
+
+    }
+    .jone{
+        font-size: 16px;
+    }
+    .jone>img{
+        width: 100%;
+        height: 200px;
+    }
+}
